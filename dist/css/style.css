@@ -147,6 +147,10 @@ h2, h3, a, button, li, .footer-bottom{
 }
 
 /* Footer */
+footer{
+  padding-top: 3rem;
+}
+
 footer .footer-cols{
   display: grid;
   grid-gap: 20px;
@@ -460,6 +464,10 @@ footer .footer-cols ul li:first-child{
 
   footer p{
     font-size: 0.95rem;
+  }
+  hr{
+    width: 100%;
+    opacity: 0.3;
   }
 }
 
