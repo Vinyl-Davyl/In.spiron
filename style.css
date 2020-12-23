@@ -86,7 +86,7 @@ h2, h3, a, button, li, .footer-bottom{
   padding: 7rem 0;
   filter: brightness(0.5);
   color:  #030303;
-  text-shadow: 1px 1px 0 #f7fbfd, 2px 2px 0 #f7b2e8;
+  text-shadow: 1px 1px 0 #f7fbfd, 2px 2px 0 #b2d8f7;
 }
 
 .gift-cards{
@@ -446,6 +446,20 @@ footer .footer-cols ul li:first-child{
 @media(min-width: 320px) and (max-width: 321px) {
   #showcase{
     height: 120vh !important;
+  }
+  footer .footer-cols{   
+    grid-gap: 3px;
+    padding: 0rem;
+    text-align: left;
+    font-size: 13px;
+  }
+  
+  footer .footer-cols ul li:first-child{
+    font-size: 0.95rem;
+  }
+
+  footer p{
+    font-size: 0.95rem;
   }
 }
 
