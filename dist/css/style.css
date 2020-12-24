@@ -36,17 +36,7 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
-h2, h3, button, .footer-bottom{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-weight: bolder;
-}
-footer li{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-weight: bolder;
-}
-.section-main a{
+h2, h3, a, button, li, .footer-bottom{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-weight: bolder;
@@ -157,10 +147,6 @@ footer li{
 }
 
 /* Footer */
-footer{
-  padding-top: 3rem;
-}
-
 footer .footer-cols{
   display: grid;
   grid-gap: 20px;
@@ -268,7 +254,7 @@ footer .footer-cols ul li:first-child{
     width: 100px;
     text-align: center;
     text-decoration: none;
-    padding: 8px 0;
+    padding: 10px 0;
     color: #eee;
     text-decoration: none;
   }
@@ -474,10 +460,6 @@ footer .footer-cols ul li:first-child{
 
   footer p{
     font-size: 0.95rem;
-  }
-  hr{
-    width: 100%;
-    opacity: 0.3;
   }
 }
 
