@@ -36,7 +36,17 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
-h2, h3, a, button, li, .footer-bottom{
+h2, h3, button, .footer-bottom{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-weight: bolder;
+}
+footer li{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-weight: bolder;
+}
+.section-main a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-weight: bolder;
@@ -258,7 +268,7 @@ footer .footer-cols ul li:first-child{
     width: 100px;
     text-align: center;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 8px 0;
     color: #eee;
     text-decoration: none;
   }
