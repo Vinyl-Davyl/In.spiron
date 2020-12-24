@@ -465,7 +465,7 @@ footer .footer-cols ul li:first-child{
 
 @media(min-width: 375px) and (max-width: 376px) {
   #showcase{
-    height: 85vh !important;
+   height: 90vh !important;
   }
 }
 
